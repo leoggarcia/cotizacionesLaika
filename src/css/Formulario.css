@@ -1,0 +1,133 @@
+.formulario-box{
+    width: 1000px;
+    margin-top: 30px;
+    padding: 50px;
+
+    border-radius: 50px;
+    background: #e8e8e8;
+    box-shadow:  20px 20px 45px #c5c5c5;
+}
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.fila-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.formulario-box label{
+    margin-right: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.formulario-box input{
+    padding: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    background: #fff;
+    border-radius: 30px;
+    border: none;
+}
+
+.formulario-box .subtuitulo{
+    margin-top: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+.formulario-box .btn-agregar-serv{
+    background: #164ABA;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    padding: 10px 40px;
+}
+.formulario-box .servicios-box{
+    background-color: #cbcbcb;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.formulario-box .servicios-box p{
+    margin-right: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.formulario-box .total-box{
+    text-align: start;
+    margin-right: 20px;
+}
+.formulario-box .total-box .total-label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+.formulario-box .total-box .total-num{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0;
+}
+.formulario-box .total-box .total-full-texto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+.formulario-box .total-box .total-full{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0;
+}
+.btn-generar{
+    background: linear-gradient(91.51deg, #164ABA 3.83%, #FC2972 99.38%);
+    border-radius: 30px;
+    border: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    padding: 10px 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.cotizacion-print{
+    width: 21cm;
+    text-align: start;
+}
+.cotizacion-print .logo{
+    height: 130px;
+    margin: auto;
+    display: block;
+}
+.cotizacion-print .text-end p{
+    text-align: end;
+}
+.cotizacion-print .col-60{
+    width: 60%;
+}
+.cotizacion-print .col-50{
+    width: 50%;
+}
+.cotizacion-print .col-20{
+    width: 20%;
+}
+.cotizacion-print .col-33{
+    width: 33%;
+}
+.cotizacion-print .tabla{
+    margin-bottom: 100px;
+}
+.cotizacion-print .top-tabla{
+    border-bottom: 3px solid #000;
+}
+.cotizacion-print .titulo-tabla{
+    font-weight: 600;
+    text-align: center;
+}
+.cotizacion-print .text-center{
+    text-align: start;
+}
+.cotizacion-print .servicios-p{
+    border-bottom: 2px solid #000;
+}
+.cotizacion-print .servicio-p{
+    border-bottom: 1px solid #000;
+    margin-bottom: 0;
+}
+.cotizacion-print .servicio-p .desc-servicio{
+    padding-right: 20px;
+}
+.cotizacion-print .servicio-p .info-ser{
+    text-align: center;
+}
+.cotizacion-print .totales{
+    border-bottom: 3px solid #000;
+}
+.cotizacion-print .totales p{
+    text-align: center;
+}
+.btn-regresar{
+    background: #164ABA;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    padding: 10px 40px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.btn-regresar svg{
+    margin-right: 10px;
+}
+
+
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+    .btn-regresar{
+        display: none;
+    }
+}

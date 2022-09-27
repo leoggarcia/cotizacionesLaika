@@ -1,0 +1,38 @@
+.servicio{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    background-color: #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0px 0px 45px #b7b7b7;
+    align-items: center;
+    width: inherit;
+    text-align: start;
+}
+.servicio .descripcion-servicio p{
+    margin: 0px;
+    line-height: 20px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.servicio .detalles-servicio{
+    margin-top: 10px;
+}
+.servicio .detalles-servicio p{
+    display: inline;
+    font-weight: 600;
+    width: 50%;
+}
+.servicio .icono-del{
+    transition: 0.5s;
+    cursor: pointer;
+}
+.servicio .icono-del:hover{
+    color: red;
+    transition: 0.5s;
+}
+.servicio .icono-del{
+    margin-left: auto;
+}
